@@ -40,7 +40,7 @@
                                 children: [
                                     Object(m.jsxs)("column", {
                                         children: [
-                                            Object(m.jsx)("img", { src: "/images/BitByBit.webp", alt: "Bit By Bit Project Poster Descriptor" }),
+                                            Object(m.jsx)("img", { className: "projectImg", src: "/images/BitByBit.webp", alt: "Bit By Bit Project Poster Descriptor" }),
                                         ]
                                     }),
                                     Object(m.jsxs)("column", {

@@ -40,7 +40,7 @@
                                 children: [
                                     Object(m.jsxs)("column", {
                                         children: [
-                                            Object(m.jsx)("img", { src: "/images/neibo.webp", alt: "Neibo Project Poster Descriptor" }),
+                                            Object(m.jsx)("img", { className: "projectImg", className: "projectImg", src: "/images/Neibo.webp", alt: "Neibo Project Poster Descriptor" }),
                                         ]
                                     }),
                                     Object(m.jsxs)("column", {
