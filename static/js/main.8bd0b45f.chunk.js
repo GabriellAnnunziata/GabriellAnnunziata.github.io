@@ -4,31 +4,39 @@
             r = [
                 {
                     "name": "Unori",
-                    "link": "",
+                    "link": "/unori.html",
                     "image": "images/Unori.webp"
                 },
                 {
                     "name": "Bit By Bit",
-                    "link": "",
+                    "link": "/bitbybit.html",
                     "image": "images/BitByBit.webp"
                 },
                 {
                     "name": "Neibo",
-                    "link": "",
+                    "link": "/neibo.html",
                     "image": "images/Neibo.webp"
                 },
                 {
                     "name": "Redesign",
-                    "link": "",
+                    "link": "/redesign.html",
                     "image": "images/Redesign.webp"
                 },
                 {
                     "name": "Step Out",
-                    "link": "",
+                    "link": "/stepout.html",
                     "image": "images/StepOut.webp"
                 }
             ],
-            o = a(24), h = a.n(o), m = a(0), d = function (e) { var s = e.link, a = e.name, i = e.image, n = Object(t.useRef)(), r = Object(t.useRef)(), l = Object(t.useRef)(); return Object(m.jsxs)("a", { ref: n, onMouseEnter: function (e) { var s = n.current.getBoundingClientRect(), a = e.clientY < s.y + s.height / 2; c.a.to(l.current, { x: "2rem", duration: .5, ease: "power3.out" }), c.a.fromTo(r.current, { scaleY: 0, transformOrigin: a ? "0 0" : "0 100%" }, { scale: 1, duration: .5, ease: "power3.out" }) }, onMouseLeave: function (e) { var s = n.current.getBoundingClientRect(), a = e.clientY < s.y + s.height / 2; c.a.killTweensOf([r.current, l.current]), c.a.to(l.current, { x: 0, duration: .3, ease: "power3.out" }), c.a.to(r.current, { scaleY: 0, transformOrigin: a ? "0 0" : "0 100%", duration: .7, ease: "power3.out" }) }, href: s, target: "_blank", children: [i && Object(m.jsx)("img", { src: i, alt: a }), Object(m.jsx)("span", { className: "link", ref: l, children: h()(a) }), Object(m.jsx)("span", { className: "overlay", ref: r })] }) }, w = a(76), g = function () {
+            o = a(24), h = a.n(o), m = a(0), d = function (e) {
+                var s = e.link, a = e.name, i = e.image, n = Object(t.useRef)(), r = Object(t.useRef)(), l = Object(t.useRef)(); return Object(m.jsxs)("a", {
+                    ref: n, onMouseEnter: function (e) { var s = n.current.getBoundingClientRect(), a = e.clientY < s.y + s.height / 2; c.a.to(l.current, { x: "2rem", duration: .5, ease: "power3.out" }), c.a.fromTo(r.current, { scaleY: 0, transformOrigin: a ? "0 0" : "0 100%" }, { scale: 1, duration: .5, ease: "power3.out" }) }, onMouseLeave: function (e) { var s = n.current.getBoundingClientRect(), a = e.clientY < s.y + s.height / 2; c.a.killTweensOf([r.current, l.current]), c.a.to(l.current, { x: 0, duration: .3, ease: "power3.out" }), c.a.to(r.current, { scaleY: 0, transformOrigin: a ? "0 0" : "0 100%", duration: .7, ease: "power3.out" }) }, href: s, target: "", children: [i && Object(m.jsx)("img", { src: i, alt: a }),
+                    Object(m.jsx)("span", { className: "link", ref: l, children: h()(a) }),
+                    Object(m.jsx)("span", { className: "overlay", ref: r })]
+                })
+            },
+            w = a(76),
+            g = function () {
                 var e = Object(t.useRef)(), s = Object(t.useRef)(), a = Object(t.useRef)(), i = Object(t.useRef)(), n = function () { var a = e.current.clientWidth, t = 121 * a / 874.13; s.current.style.width = "".concat(a, "px"), s.current.style.height = "".concat(t, "px") };
                 return Object(t.useEffect)((
                     function () {
@@ -48,18 +56,19 @@
                             }),
                             Object(m.jsxs)("g", {
                                 children: [
-                                Object(m.jsx)("path", { className: "cls-3", d: "M.17-69.87H-69.46v276.7h1021V-69.87ZM860.08,1.35l13.85,13.9-48,48L811.51,48.78,858.94,1.35ZM95.31,119.21H75.44V66.34H19.87v52.87H.17V1.35h19.7V49H75.44V1.35H95.31ZM196,81.21H131.17C132.85,95.86,142.28,105,155.75,105c11.12,0,19-5.22,21.22-14.48l17.34,4.38c-4.54,16.33-19,25.76-38.89,25.76-26.94,0-42.27-20.88-42.27-43.78S127.63,33,154.58,33c27.27,0,41.75,19.87,41.75,40.58,0,2.53-.16,6.06-.33,7.58Zm35.69,38.05H213.34V1.35h18.35Zm40.08,0H253.41V1.35h18.36Zm61,1.35c-25.59,0-43.78-18.35-43.78-43.78S307.17,33,332.72,33,376.5,51.36,376.5,76.78s-18.33,43.78-43.78,43.78ZM504.17,74.52a45.72,45.72,0,0" })]
+                                    Object(m.jsx)("path", { className: "cls-3", d: "M.17-69.87H-69.46v276.7h1021V-69.87ZM860.08,1.35l13.85,13.9-48,48L811.51,48.78,858.94,1.35ZM95.31,119.21H75.44V66.34H19.87v52.87H.17V1.35h19.7V49H75.44V1.35H95.31ZM196,81.21H131.17C132.85,95.86,142.28,105,155.75,105c11.12,0,19-5.22,21.22-14.48l17.34,4.38c-4.54,16.33-19,25.76-38.89,25.76-26.94,0-42.27-20.88-42.27-43.78S127.63,33,154.58,33c27.27,0,41.75,19.87,41.75,40.58,0,2.53-.16,6.06-.33,7.58Zm35.69,38.05H213.34V1.35h18.35Zm40.08,0H253.41V1.35h18.36Zm61,1.35c-25.59,0-43.78-18.35-43.78-43.78S307.17,33,332.72,33,376.5,51.36,376.5,76.78s-18.33,43.78-43.78,43.78ZM504.17,74.52a45.72,45.72,0,0" })]
                             })
-                        ]
+                            ]
                         }),
                         Object(m.jsxs)("div", {
                             className: "intro", ref: a, children: [
-                                Object(m.jsx)("strong", { children: "My name is Gabriella Annunziata, aka Korea Lover 🇰🇷, I love food 🍱" }),
+                                Object(m.jsx)("strong", { children: "My name is Gabriella Annunziata, aka Korea Lover 🇰🇷, I love food 🍱." }),
                                 Object(m.jsx)("br", {}), "I am an Italian chemical engineering student and over the past year, I have been delving into the field of application development, where my exploration has encompassed both the realms of design and code, with a particular emphasis on the latter.",
                                 Object(m.jsx)("br", {}), "I’m driven by the curiosity to comprehend individuals and appreciate their inherent worth, this serves as an impetus to consistently deliver my utmost in a team environment.",
                                 Object(m.jsx)("br", {}), "Moreover, it propelled me towards venturing into the domain of project management, blending my academic foundation with my insatiable quest for exploration."
                             ]
-                        })]
+                        })
+                    ]
                     })
             }, p = (a(73), function () {
                 Object(t.useEffect)((function () { c.a.to("section", { opacity: 1, delay: 3, ease: "power3.out", duration: 2 }) }), []); return Object(m.jsxs)("div", {
@@ -87,7 +96,8 @@
                                     children:
                                         Object(m.jsx)(d, { link: "https://www.linkedin.com/in/gabriella-annunziata-b15a84250/", name: "Linkedin" })
                                 })]
-                        })]
+                        })
+                        ]
                     }),
                     Object(m.jsx)("br", {}),
                     Object(m.jsx)("br", {}),
